@@ -1,3 +1,36 @@
-.App {
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #113f67;
+  color: white;
+}
+
+.navbar {
+  height: 64px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #38598b;
+  border-bottom: 5px solid #a2a8d3;
+}
+
+.navbar li {
+  display: inline-block;
+  height: 100%;
   text-align: center;
 }
+
+.navbar li a {
+  text-decoration: none;
+  color: white;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+}
+
+.navbar li a:hover {
+  background-color: #a2a8d3;
+}
+
+
