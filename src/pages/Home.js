@@ -3,7 +3,9 @@ import Navbar from '../components/Navbar';
 
 function Home() {
   return (
-    <h1>Hi, my name is Ethan</h1>
+    <div className="content">
+      <h1>Hi, my name is Ethan Lamming</h1>
+    </div>
   );
 }
 
